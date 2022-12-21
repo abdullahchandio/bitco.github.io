@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;600&display=swap');
+body{
+/*	font-family: 'Poppins', sans-serif;*/
+}
+p{
+	text-align: justify;
+}
+.navbar-toggler{
+	border: 0;
+}
+ .navbar-brand{
+ 	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+ }
+.btn_grop{
+	font-size: ;
+}
+ .navbar-brand span{
+	background-color:#EFB704;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+.navbar-nav .nav-item .nav-link{ 
+	color: #000;
+	font-weight: 500;
+	margin-right: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+section.hero{
+	margin: 5rem 0;
+}
+.text-code h2{
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+.text-code p{
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+.text-code{
+	margin: 24px 0;
+}
+.testmion-brand{
+	padding: 24px 0;
+}
+
+/*///////////*/
+
+@media(min-width:1399.98px){
+	.container{
+		width: 84%;
+	}
+	.testmion-brand{
+		padding: 3rem 4rem;
+	}
+
+}
+
+@media (max-width:576px){
+	.navbar{
+		padding: 28px 0;
+	}
+	a.nav-link{
+		margin-right:7px;
+	}
+	section.hero{
+		margin: 2rem 0;
+	}
+}
